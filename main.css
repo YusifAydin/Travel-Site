@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+.siteheader {
+    text-decoration: none;
+    color: #000;
+    font-size: 32px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.navContainer {
+    background-color: #3d3d3d;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+
+.navContainer a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 60px;
+    display: block;
+}
+
+
+.navContainer li {
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+
+}
+
+
+.navContainer li:hover {
+    background-color: #000;
+
+}
+
+
+.mainimg {
+    width: 100%;
+    height: 300px;
+}
+
+
+.sectionHeader {
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    text-transform: uppercase;
+    color: #8ec4e5;
+
+}
+
+
+.sectionphoto_Container {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 0px;
+}
+
+
+.sectionphoto_Container img {
+    width: 250px;
+    height: 140px;
+}
+
+.sectionphoto_Container img:hover {
+    scale: 1.2;
+}
+
+.photo_ext {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.photo_ext p {
+    margin: 10px 100px;
+}
+
+.section_article  {
+    padding: 0px 200px;
+}
+
+
+.Book_BTN {
+    background-color: #000;
+    display: block;
+    width: 140px;
+    padding:15px 20px;
+    font-size: 14px;
+    margin: 0 auto;
+    color: #fff;
+    text-decoration: none; 
+    font-weight: bold;
+    border-radius: 10px;
+    margin-bottom: 80px;
+}
+
+hr {
+    width: 80%;
+    color: #9a9696;
+}
+
+.footerContainer {
+list-style-type: none;
+display: flex;
+justify-content: center;
+}
+
+.footerContainer a {
+    color: #000;
+    text-decoration: none;
+    padding: 10px 40px;
+}
